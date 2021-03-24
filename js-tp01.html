@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+<h1>Contact</h1>
+
+<form id ="myForm" onsubmit="return validationForm();" >
+    <div>
+        <label for="nom">Nom</label> : <input type="text" name="Nom" id="nom"/>
+        <span id="myNameError"></span>
+    </div>
+
+    <div>
+        <label for="prenom">Prenom</label> : <input type="text" name="Prenom" id="prenom"/>
+        <span id="myFirstNameError"></span>
+    </div>
+    <div>
+        <label for="age">Age</label> : <input type="text" name="Age" id="age"/>
+        <span id="myAgeError"></span>
+
+    </div>
+
+    <div>
+        <label for="email">Email</label> : <input type="email" name="Email" id="email"/>
+        <span id="myEmailError"></span>
+
+    </div>
+
+    <div>
+        <label for="num">Tel</label> : <input type="tel" name="Tel" id="num"/>
+        <span id="myNumError"></span>
+
+    </div>
+    <div>
+        <label for="contact">contact préféré</label>
+        <select id="contact">
+            <option value="">=>choisir un moyen de contact</option>
+            <option value="num">num</option>
+            <option value="email">email</option>
+        </select>
+        <span id="myContactSelectedError"></span>
+
+    </div>
+
+    <div>
+        <label for="message">Message</label><br />
+        <textarea name="msg" id="message"></textarea>
+        <span id="myMessageError"></span>
+    </div>
+
+    <input type="submit" value="Envoyer le formulaire">
+</form>
+
+
+
+<p><script type="text/javascript" src="js/script-tp01.js"></script></p>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
