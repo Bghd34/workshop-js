@@ -33,6 +33,4 @@ console.log(paul.prenom);
 console.log(paul.pseudo);
 console.log(paul.afficherPersonne());
 
-jules.pseudo="jules44";
 
-console.log(jules.getNomComplet());
